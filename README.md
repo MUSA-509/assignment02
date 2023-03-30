@@ -156,6 +156,7 @@ The eight bus stops with the largest population:
 
 <img width="727" alt="Screenshot 2023-03-30 at 2 08 18 AM" src="https://user-images.githubusercontent.com/75055449/228744770-423f3c34-fef8-49c4-ada1-82c2a7944234.png">
 
+
 2.  Which **eight** bus stops have the smallest population above 500 people _inside of Philadelphia_ within 800 meters of the stop (Philadelphia county block groups have a geoid prefix of `42101` -- that's `42` for the state of PA, and `101` for Philadelphia county)?
 
     **The queries to #1 & #2 should generate results with a single row, with the following structure:**
@@ -180,6 +181,8 @@ The eight bus stops with the largest population:
 <img width="758" alt="Screenshot 2023-03-30 at 2 21 51 AM" src="https://user-images.githubusercontent.com/75055449/228747383-7a32f2ba-20ff-4222-b042-139aa31ed99c.png">
 
 3.  Using the Philadelphia Water Department Stormwater Billing Parcels dataset, pair each parcel with its closest bus stop. The final result should give the parcel address, bus stop name, and distance apart in meters. Order by distance (largest on top).
+
+<img width="616" alt="Screenshot 2023-03-30 at 2 37 31 PM" src="https://user-images.githubusercontent.com/75055449/228932555-b2d21c7a-8193-4e83-a1ef-b3698456d741.png">
 
     _Your query should run in under two minutes._
 
