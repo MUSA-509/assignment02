@@ -144,6 +144,18 @@ There are several datasets that are prescribed for you to use in this part. Your
 
 1.  Which **eight** bus stop have the largest population within 800 meters? As a rough estimation, consider any block group that intersects the buffer as being part of the 800 meter buffer.
 
+The eight bus stops with the largest population:
+"Lombard St & 18th St"
+"Rittenhouse Sq & 18th St "
+"Snyder Av & 9th St "
+"Lombard St & 19th St"
+"19th St & Lombard St "
+"16th St & Locust St "
+"Locust St & 16th St "
+"South St & 19th St"
+
+<img width="727" alt="Screenshot 2023-03-30 at 2 08 18 AM" src="https://user-images.githubusercontent.com/75055449/228744770-423f3c34-fef8-49c4-ada1-82c2a7944234.png">
+
 2.  Which **eight** bus stops have the smallest population above 500 people _inside of Philadelphia_ within 800 meters of the stop (Philadelphia county block groups have a geoid prefix of `42101` -- that's `42` for the state of PA, and `101` for Philadelphia county)?
 
     **The queries to #1 & #2 should generate results with a single row, with the following structure:**
