@@ -211,6 +211,8 @@ _Your query should run in under two minutes._
     >*   📑 [_An Easy Guide to Advanced SQL Window Functions_](https://towardsdatascience.com/a-guide-to-advanced-sql-window-functions-f63f2642cbf9) in Towards Data Science, by Julia Kho
     >*   🎥 [_SQL Window Functions for Data Scientists_](https://www.youtube.com/watch?v=e-EL-6Vnkbg) (and a [follow up](https://www.youtube.com/watch?v=W_NBnkLLh7M) with examples) on YouTube, by Emma Ding
 
+<img width="672" alt="Screenshot 2023-03-30 at 3 15 15 PM" src="https://user-images.githubusercontent.com/75055449/228940592-244c377e-accc-4da6-9b9a-b25d24c54aa8.png">
+
     **Structure:**
     ```sql
     (
@@ -220,7 +222,6 @@ _Your query should run in under two minutes._
         shape_length double precision  -- Length of the trip in meters
     )
     ```
-<img width="672" alt="Screenshot 2023-03-30 at 3 15 15 PM" src="https://user-images.githubusercontent.com/75055449/228940592-244c377e-accc-4da6-9b9a-b25d24c54aa8.png">
 
 5.  Rate neighborhoods by their bus stop accessibility for wheelchairs. Use Azavea's neighborhood dataset from OpenDataPhilly along with an appropriate dataset from the Septa GTFS bus feed. Use the [GTFS documentation](https://gtfs.org/reference/static/) for help. Use some creativity in the metric you devise in rating neighborhoods.
 
