@@ -3,6 +3,8 @@
   estimation, consider any block group that intersects the buffer as being part
   of the 800 meter buffer.
 */
+ALTER TABLE septa.bus_stops ADD COLUMN geog geography(Point,4269);
+UPDATE septa.bus_stops SET geog = ST_SetSRID(ST_MakePoint(stop_lon, stop_lat), 4269);
 
 with
 
@@ -18,7 +20,7 @@ septa_bus_stop_blockgroups as (
 septa_bus_stop_surrounding_population as (
     select
         stops.stop_id,
-        sum(pop.total) as estimated_pop_800m
+        sum(pop.total::numeric) as estimated_pop_800m
     from septa_bus_stop_blockgroups as stops
     inner join census.population_2020 as pop using (geoid)
     group by stops.stop_id
