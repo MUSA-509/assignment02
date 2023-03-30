@@ -48,4 +48,5 @@ SELECT
     closest_bus_stop.distance
 FROM filtered_parcels
 JOIN closest_bus_stop ON filtered_parcels.parcel_address = closest_bus_stop.parcel_address
-ORDER BY closest_bus_stop.distance ASC;
+ORDER BY closest_bus_stop.distance DESC;
+
