@@ -388,13 +388,30 @@ Query complete 00:00:01.951
 "WEST_TORRESDALE"
 
 
-    Discuss your accessibility metric and how you arrived at it below:
+Discuss your accessibility metric and how you arrived at it below:
 
-    **Description:**  I am using the proportion of wheelchair accessible bus stops in the neighborhood to calculate the accessibility of bus stops in each neighborhood. I divided the count of wheelchair accessible bus stops in each neighborhood by the area of the neighborhood, resulting in a density of accessible bus stops per unit of area. This metric assumes that the more wheelchair accessible bus stops a neighborhood has per unit, the more accessible it is for people with mobility disabilities who use wheelchairs to travel by bus.
+**Description:**  I am using the proportion of wheelchair accessible bus stops in the neighborhood to calculate the accessibility of bus stops in each neighborhood. I divided the count of wheelchair accessible bus stops in each neighborhood by the area of the neighborhood, resulting in a density of accessible bus stops per unit of area. This metric assumes that the more wheelchair accessible bus stops a neighborhood has per unit, the more accessible it is for people with mobility disabilities who use wheelchairs to travel by bus.
 
 6.  What are the _top five_ neighborhoods according to your accessibility metric?
 
+ <img width="401" alt="Screenshot 2023-03-30 at 6 03 11 PM" src="https://user-images.githubusercontent.com/75055449/228974154-85ee2b29-be87-43aa-9b5d-c098f992366f.png">
+ 
+"WASHINGTON_SQUARE"
+"NEWBOLD"
+"HAWTHORNE"
+"FRANCISVILLE"
+"SPRING_GARDEN"
+
+
 7.  What are the _bottom five_ neighborhoods according to your accessibility metric?
+
+<img width="391" alt="Screenshot 2023-03-30 at 6 03 48 PM" src="https://user-images.githubusercontent.com/75055449/228974229-fe0c3f4a-faea-4a71-86cb-f9baae5028b7.png">
+
+"WEST_TORRESDALE"
+"NAVY_YARD"
+"AIRPORT"
+"INDUSTRIAL"
+"CRESTMONT_FARMS"
 
     **Both #6 and #7 should have the structure:**
     ```sql
