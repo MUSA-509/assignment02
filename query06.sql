@@ -31,6 +31,9 @@ WITH
   
 SELECT
   neighborhood_name,
-  num_bus_stops_accessible / area AS accessibility_metric
+  num_bus_stops_accessible / area AS accessibility_metric,
+  num_bus_stops_accessible,
+  num_bus_stops_inaccessible
 FROM neighborhood_bus_stops
 ORDER BY accessibility_metric DESC
+LIMIT 5;
