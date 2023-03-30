@@ -11,7 +11,8 @@ This assignment will work a bit differently than assignment #1. To complete this
 
 ----------------
 
-## Instructions
+## Instructions<img width="703" alt="Screenshot 2023-03-30 at 3 14 52 PM" src="https://user-images.githubusercontent.com/75055449/228940504-2658dee1-ea1f-4d5f-985f-d4930485bbe3.png">
+
 
 Write a query to answer each of the questions below.
 * Your queries should produce results in the format specified by each question.
@@ -184,9 +185,10 @@ The eight bus stops with the largest population:
 
 <img width="616" alt="Screenshot 2023-03-30 at 2 37 31 PM" src="https://user-images.githubusercontent.com/75055449/228932555-b2d21c7a-8193-4e83-a1ef-b3698456d741.png">
 
-    _Your query should run in under two minutes._
+_Your query should run in under two minutes._
 
-    >_**HINT**: This is a [nearest neighbor](https://postgis.net/workshops/postgis-intro/knn.html) problem.
+>_**HINT**: This is a [nearest neighbor](https://postgis.net/workshops/postgis-intro/knn.html) problem.
+
 
     **Structure:**
     ```sql
@@ -218,6 +220,7 @@ The eight bus stops with the largest population:
         shape_length double precision  -- Length of the trip in meters
     )
     ```
+<img width="672" alt="Screenshot 2023-03-30 at 3 15 15 PM" src="https://user-images.githubusercontent.com/75055449/228940592-244c377e-accc-4da6-9b9a-b25d24c54aa8.png">
 
 5.  Rate neighborhoods by their bus stop accessibility for wheelchairs. Use Azavea's neighborhood dataset from OpenDataPhilly along with an appropriate dataset from the Septa GTFS bus feed. Use the [GTFS documentation](https://gtfs.org/reference/static/) for help. Use some creativity in the metric you devise in rating neighborhoods.
 
