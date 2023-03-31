@@ -439,6 +439,9 @@ Discuss your accessibility metric and how you arrived at it below:
 
 9. With a query involving PWD parcels and census block groups, find the `geo_id` of the block group that contains Meyerson Hall. `ST_MakePoint()` and functions like that are not allowed.
 
+<img width="201" alt="Screenshot 2023-03-31 at 12 36 59 AM" src="https://user-images.githubusercontent.com/75055449/229023727-0aaff025-2aa8-444e-8547-9a3b2845a651.png">
+
+
     **Structure (should be a single value):**
     ```sql
     (
