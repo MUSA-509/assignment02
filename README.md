@@ -425,6 +425,9 @@ Discuss your accessibility metric and how you arrived at it below:
 
 8.  With a query, find out how many census block groups Penn's main campus fully contains. Discuss which dataset you chose for defining Penn's campus.
 
+<img width="204" alt="Screenshot 2023-03-31 at 12 19 14 AM" src="https://user-images.githubusercontent.com/75055449/229021693-8ff221cb-de03-4701-90a7-20214e9cc574.png">
+
+
     **Structure (should be a single value):**
     ```sql
     (
