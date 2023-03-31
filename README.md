@@ -425,6 +425,9 @@ Discuss your accessibility metric and how you arrived at it below:
 
 8.  With a query, find out how many census block groups Penn's main campus fully contains. Discuss which dataset you chose for defining Penn's campus.
 
+<img width="204" alt="Screenshot 2023-03-31 at 12 19 14 AM" src="https://user-images.githubusercontent.com/75055449/229021693-8ff221cb-de03-4701-90a7-20214e9cc574.png">
+
+
     **Structure (should be a single value):**
     ```sql
     (
@@ -432,7 +435,7 @@ Discuss your accessibility metric and how you arrived at it below:
     )
     ```
 
-    **Discussion:**
+    **Discussion: I defined a single polygon which fully contains the Penn's main campus by using `ST_MakeBox2D`. I chose two points at the corner, **
 
 9. With a query involving PWD parcels and census block groups, find the `geo_id` of the block group that contains Meyerson Hall. `ST_MakePoint()` and functions like that are not allowed.
 
