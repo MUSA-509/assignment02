@@ -11,7 +11,7 @@ This assignment will work a bit differently than assignment #1. To complete this
 
 ----------------
 
-## Instructions<img width="703" alt="Screenshot 2023-03-30 at 3 14 52 PM" src="https://user-images.githubusercontent.com/75055449/228940504-2658dee1-ea1f-4d5f-985f-d4930485bbe3.png">
+## Instructions
 
 
 Write a query to answer each of the questions below.
@@ -439,6 +439,9 @@ Discuss your accessibility metric and how you arrived at it below:
 
 9. With a query involving PWD parcels and census block groups, find the `geo_id` of the block group that contains Meyerson Hall. `ST_MakePoint()` and functions like that are not allowed.
 
+<img width="201" alt="Screenshot 2023-03-31 at 12 36 59 AM" src="https://user-images.githubusercontent.com/75055449/229023727-0aaff025-2aa8-444e-8547-9a3b2845a651.png">
+
+
     **Structure (should be a single value):**
     ```sql
     (
@@ -447,6 +450,8 @@ Discuss your accessibility metric and how you arrived at it below:
     ```
 
 10. You're tasked with giving more contextual information to rail stops to fill the `stop_desc` field in a GTFS feed. Using any of the data sets above, PostGIS functions (e.g., `ST_Distance`, `ST_Azimuth`, etc.), and PostgreSQL string functions, build a description (alias as `stop_desc`) for each stop. Feel free to supplement with other datasets (must provide link to data used so it's reproducible), and other methods of describing the relationships. SQL's `CASE` statements may be helpful for some operations.
+
+<img width="698" alt="Screenshot 2023-03-31 at 1 07 53 AM" src="https://user-images.githubusercontent.com/75055449/229028177-dcffd442-5271-4391-bc00-26d36cc4eeac.png">
 
     **Structure:**
     ```sql
