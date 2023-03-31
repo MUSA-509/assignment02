@@ -432,7 +432,7 @@ Discuss your accessibility metric and how you arrived at it below:
     )
     ```
 
-    **Discussion:**
+    **Discussion: I defined a single polygon which fully contains the Penn's main campus by using `ST_MakeBox2D`. I chose two points at the corner, **
 
 9. With a query involving PWD parcels and census block groups, find the `geo_id` of the block group that contains Meyerson Hall. `ST_MakePoint()` and functions like that are not allowed.
 
